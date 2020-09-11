@@ -9,7 +9,7 @@ Usaremos "Makefile"
 **make** //
 Compila las funciones basicas de libft
 
-**make bonus* *//
+**make bonus** //
 Compila las funciones basicas de libft + bonus (funciones de estructuras)
 
 **make fclean** //
