@@ -6,11 +6,11 @@ Libreria propia que usaremos durante todo el curso 42.
 
 Usaremos "Makefile"
 
-**make**
+**make**//
 Compila las funciones basicas de libft
 
-**make bonus**
+**make bonus**//
 Compila las funciones basicas de libft + bonus (funciones de estructuras)
 
-**make fclean**
+**make fclean**//
 Limpia "*.o" y libreria
