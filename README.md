@@ -13,7 +13,7 @@ Compila las funciones basicas de libft
 **make fclean** //
 Limpia "*.o" y libreria
 
-**PARA LA PARTE BONUS:**
+**Para la parte bonus:**
 
 Algunas funciones de estructuras.
 
