@@ -10,8 +10,12 @@ Usaremos "Makefile"
 **make** //
 Compila las funciones basicas de libft
 
-**make bonus** //
-Compila las funciones basicas de libft + bonus (funciones de estructuras)
-
 **make fclean** //
 Limpia "*.o" y libreria
+
+**PARA LA PARTE BONUS:**
+
+Algunas funciones de estructuras.
+
+**make bonus** //
+Compila las funciones basicas de libft + bonus (funciones de estructuras)
