@@ -8,7 +8,7 @@ Create your own library to be useful during the course.
 
 Uses a `makefile`
 
-`make` compile all -> `libft.a`.</br
+`make` compile all -> `libft.a`.</br>
 `make clean` clean `*.o`.
 `make fclean`clean all.
 
