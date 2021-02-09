@@ -1,21 +1,17 @@
-42Madrid Cursus - LIBFT
+## Objetive
 
-Libreria propia que usaremos durante todo el curso 42.
-![libft](./115:100.png)
+Create your own library to be useful during the course.
 
-## Uso
+## Use
 
-Usaremos "Makefile"
+Uses a `makefile`
 
-**make** //
-Compila las funciones basicas de libft
+`make` compile all -> `libft.a`.</br
+`make clean` clean `*.o`.
+`make fclean`clean all.
 
-**make fclean** //
-Limpia "*.o" y libreria
+## Bonus
 
-**Para la parte bonus:**
+Some functions of structs.
 
-Algunas funciones de estructuras.
-
-**make bonus** //
-Compila las funciones basicas de libft + bonus (funciones de estructuras)
+`make bonus` compile libft + bonus.
