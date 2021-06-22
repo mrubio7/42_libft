@@ -6,7 +6,7 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 13:30:49 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/30 00:23:13 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:32:59 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	if (!s1 || !s2)
 		return (NULL);
 	total = ft_strlen(s1) + ft_strlen(s2);
-	if ((res = (char *)malloc(total + 1)) == NULL)
+	res = (char *)malloc(total + 1);
+	if (res == NULL)
 		return (NULL);
 	while (s1[x] != '\0')
 	{

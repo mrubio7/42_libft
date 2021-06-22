@@ -6,7 +6,7 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/08 12:35:26 by mrubio            #+#    #+#             */
-/*   Updated: 2020/08/01 01:23:18 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:48:03 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,8 @@ void	*ft_calloc(unsigned int item, unsigned int size)
 	int		x;
 
 	total = item * size;
-	if (!(res = malloc(total)))
+	res = malloc(total);
+	if (!res)
 		return (NULL);
 	x = 0;
 	while (total--)

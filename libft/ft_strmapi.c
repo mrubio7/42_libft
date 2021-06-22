@@ -6,7 +6,7 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/20 19:24:09 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/30 00:04:22 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:41:00 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,8 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int a, char b))
 		return (NULL);
 	size = ft_strlen(s);
 	x = 0;
-	if ((str = (char *)malloc(size + 1)) == NULL)
+	str = (char *)malloc(size + 1);
+	if (str == NULL)
 		return (NULL);
 	while (x < size)
 	{

@@ -6,13 +6,13 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/30 08:46:39 by mrubio            #+#    #+#             */
-/*   Updated: 2020/06/30 11:36:45 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:32:25 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_bzero(void *s, unsigned int n)
 {
-	char *f;
+	char	*f;
 
 	f = s;
 	while (n)

@@ -6,7 +6,7 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/28 12:12:13 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/28 13:01:17 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:37:32 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,22 +28,22 @@ unsigned int		ft_strlcpy(char *dest, const char *src, unsigned int size);
 int					ft_isascii(char c);
 int					ft_atoi(const char *c);
 void				*ft_memccpy(void *dest, const void *src, int c,
-unsigned int n);
+						unsigned int n);
 void				*ft_memchr(const void *s, int c,
-unsigned int n);
+						unsigned int n);
 int					ft_memcmp(const void *str1, const void *str2,
-unsigned int n);
+						unsigned int n);
 char				*ft_strchr(char *s, int c);
 int					ft_strncmp(const void *str1, const void *str2,
-unsigned int n);
+						unsigned int n);
 char				*ft_strrchr(const char *str, int c);
 unsigned int		ft_strlcat(char *dest, const char *src, unsigned int size);
 char				*ft_strnstr(const char *str, const char *srch,
-unsigned int n);
+						unsigned int n);
 void				*ft_calloc(unsigned int nitems, unsigned int size);
 char				*ft_strdup(const char *src);
 char				*ft_substr(char const *s, unsigned int start,
-unsigned int len);
+						unsigned int len);
 char				*ft_strjoin(char const *s1, char const *s2);
 char				*ft_strtrim(char const *s1, char const *set);
 char				**ft_split(char const *s, char c);
@@ -53,8 +53,10 @@ void				ft_putchar_fd(char c, int fd);
 void				ft_putstr_fd(char *s, int fd);
 void				ft_putendl_fd(char *s, int fd);
 void				ft_putnbr_fd(int n, int fd);
+int					ft_abs(int num);
+double				ft_fabs(double num);
 
-typedef struct		s_list
+typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
@@ -69,6 +71,6 @@ void				ft_lstdelone(t_list *lst, void (*del)(void *));
 void				ft_lstclear(t_list **lst, void (*del)(void *));
 void				ft_lstiter(t_list *lst, void (*f)(void *));
 t_list				*ft_lstmap(t_list *lst, void *(*f)
-(void *), void (*del)(void *));
+						(void *), void (*del)(void *));
 
 #endif

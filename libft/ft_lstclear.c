@@ -6,7 +6,7 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/23 14:35:00 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/28 02:08:42 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:31:44 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
-	t_list *curr;
+	t_list	*curr;
 
 	while (*lst != NULL)
 	{

@@ -6,11 +6,11 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/27 19:48:20 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/27 19:48:29 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:40:35 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_strncmp(const void *str1, const void *str2, unsigned int n)
+int	ft_strncmp(const void *str1, const void *str2, unsigned int n)
 {
 	const char	*s1;
 	const char	*s2;

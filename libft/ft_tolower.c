@@ -6,11 +6,11 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/30 11:23:34 by mrubio            #+#    #+#             */
-/*   Updated: 2020/06/30 11:42:56 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:39:40 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_tolower(int ch)
+int	ft_tolower(int ch)
 {
 	if (ch >= 65 && ch <= 90)
 		ch += 32;

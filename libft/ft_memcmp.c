@@ -6,11 +6,11 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/02 09:28:12 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/02 12:08:10 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:32:03 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_memcmp(const void *str1, const void *str2, unsigned int n)
+int	ft_memcmp(const void *str1, const void *str2, unsigned int n)
 {
 	const char	*s1;
 	const char	*s2;

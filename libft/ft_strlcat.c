@@ -6,7 +6,7 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/27 19:47:13 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/27 19:47:14 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:47:45 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 unsigned int	ft_strlcat(char *dest, const char *src, unsigned int size)
 {
-	int x;
-	int z;
+	int	x;
+	int	z;
 
 	x = 0;
 	z = 0;

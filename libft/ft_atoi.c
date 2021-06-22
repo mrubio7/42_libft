@@ -6,11 +6,11 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/01 09:56:49 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/10 19:36:15 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:48:58 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	int				x;
 	long long int	num;
@@ -20,7 +20,7 @@ int		ft_atoi(const char *str)
 	sig = 1;
 	num = 0;
 	while (str[x] == 32 || str[x] == 10 || str[x] == 9
-	|| str[x] == 12 || str[x] == 13 || str[x] == 11)
+		|| str[x] == 12 || str[x] == 13 || str[x] == 11)
 		x++;
 	if (str[x] == '-' || str[x] == '+')
 	{

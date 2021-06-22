@@ -6,7 +6,7 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/08 12:35:31 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/29 23:47:15 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:48:24 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,8 @@ char	*ft_strdup(const char *src)
 	int		x;
 
 	x = ft_strlen(src) + 1;
-	if ((s = malloc(x)) == NULL)
+	s = malloc(x);
+	if (s == NULL)
 		return (NULL);
 	if (src == NULL)
 	{

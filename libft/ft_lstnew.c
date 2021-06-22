@@ -6,7 +6,7 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/23 14:24:12 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/27 20:13:48 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:30:24 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,10 @@
 
 t_list	*ft_lstnew(void *content)
 {
-	t_list *new;
+	t_list	*new;
 
-	if ((new = malloc(sizeof(t_list))) == NULL)
+	new = malloc(sizeof(t_list));
+	if (new == NULL)
 		return (NULL);
 	new = malloc(sizeof(t_list));
 	new->content = content;

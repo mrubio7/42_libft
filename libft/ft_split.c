@@ -6,13 +6,13 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 12:52:14 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/28 03:02:22 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:38:49 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-static int		numstring(char const *s1, char c)
+static int	numstring(char const *s1, char c)
 {
 	int	strgs;
 	int	sw;
@@ -35,7 +35,7 @@ static int		numstring(char const *s1, char c)
 	return (strgs);
 }
 
-static int		numchar(char const *s2, char c, int i)
+static int	numchar(char const *s2, char c, int i)
 {
 	int	lenght;
 
@@ -48,7 +48,7 @@ static int		numchar(char const *s2, char c, int i)
 	return (lenght);
 }
 
-static char		**ft_free(char const **dst, int j)
+static char	**ft_free(char const **dst, int j)
 {
 	while (j > 0)
 	{
@@ -59,7 +59,7 @@ static char		**ft_free(char const **dst, int j)
 	return (NULL);
 }
 
-static char		**swapstr(char const *s, char **dst, char c, int strgs)
+static char	**swapstr(char const *s, char **dst, char c, int strgs)
 {
 	int	x;
 	int	z;
@@ -84,7 +84,7 @@ static char		**swapstr(char const *s, char **dst, char c, int strgs)
 	return (dst);
 }
 
-char			**ft_split(char const *s, char c)
+char	**ft_split(char const *s, char c)
 {
 	char	**dst;
 	int		strgs;

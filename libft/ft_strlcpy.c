@@ -6,7 +6,7 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/30 11:45:23 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/27 19:47:39 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:31:07 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 unsigned int	ft_strlcpy(char *dest, const char *src, unsigned int size)
 {
-	unsigned int x;
+	unsigned int	x;
 
 	x = 0;
 	if (!dest || !src)

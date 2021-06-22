@@ -6,11 +6,11 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/30 11:20:40 by mrubio            #+#    #+#             */
-/*   Updated: 2020/07/29 23:54:28 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:28:02 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_isascii(int c)
+int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 		return (1);

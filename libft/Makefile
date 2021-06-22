@@ -38,6 +38,8 @@ SRC =	ft_bzero.c \
 		ft_putstr_fd.c \
 		ft_putendl_fd.c \
 		ft_putnbr_fd.c \
+		ft_abs.c \
+		ft_fabs.c
 
 SRCB = 	ft_lstnew.c \
 		ft_lstadd_front.c \
@@ -47,7 +49,7 @@ SRCB = 	ft_lstnew.c \
 		ft_lstdelone.c \
 		ft_lstclear.c \
 		ft_lstiter.c \
-		ft_lstmap.c \
+		ft_lstmap.c
 
 OBJ = $(SRC:.c=.o)
 

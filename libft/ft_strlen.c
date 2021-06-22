@@ -6,13 +6,13 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/30 11:23:11 by mrubio            #+#    #+#             */
-/*   Updated: 2020/06/30 11:36:25 by mrubio           ###   ########.fr       */
+/*   Updated: 2021/06/21 16:31:18 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 unsigned int	ft_strlen(const char *str)
 {
-	int x;
+	int	x;
 
 	x = 0;
 	while (*str != '\0')
