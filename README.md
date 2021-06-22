@@ -1,16 +1,19 @@
-42Madrid Cursus - LIBFT
+[![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/mrubio/Libft)](https://github.com/JaeSeoKim/badge42)
 
-Libreria propia que usaremos durante todo el curso 42.
+## Objetive
 
-## Uso
+Create your own library to be useful during the course.
 
-Usaremos "Makefile"
+## Use
 
-**make** //
-Compila las funciones basicas de libft
+Uses a `makefile`
 
-**make bonus** //
-Compila las funciones basicas de libft + bonus (funciones de estructuras)
+`make` compile all -> `libft.a`.</br>
+`make clean` clean `*.o`.
+`make fclean`clean all.
 
-**make fclean** //
-Limpia "*.o" y libreria
+## Bonus
+
+Some functions of structs.
+
+`make bonus` compile libft + bonus.

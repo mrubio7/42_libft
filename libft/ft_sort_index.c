@@ -1,18 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_fabs.c                                          :+:      :+:    :+:   */
+/*   ft_sort_index.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/20 18:45:26 by mrubio            #+#    #+#             */
-/*   Updated: 2021/06/22 14:30:10 by mrubio           ###   ########.fr       */
+/*   Created: 2021/02/05 16:37:07 by mrubio            #+#    #+#             */
+/*   Updated: 2021/02/05 16:37:22 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-double	ft_abs(double num)
+void		ft_sort_index(double *dis, int *ord, int size)
 {
-	if (num < 0.0)
-		return (num * -1.0);
-	return (num);
+	int i;
+	int j;
+
+	i = 0;
+	j = size;
+	while (i <= size)
+		ord[i++] = 0;
+	i = 0;
+	while (i <= size)
+	{
+		dis[i] < dis[j] ? ord[i]++ : ord[i];
+		if (j == 0 && (i += 1) <= size)
+			j = size + 1;
+		j--;
+	}
+	while (j <= size)
+	{
+		if (ord[j] == ord[j + 1])
+		{
+			ord[j]++;
+			j = 0;
+		}
+		else
+			j++;
+	}
 }
